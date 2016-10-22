@@ -1,7 +1,8 @@
 /*------------------------------------*\
     #VARIABLES
 \*------------------------------------*/
-
+@import url('https://fonts.googleapis.com/css?family=Domine');
+@import url('https://use.fontawesome.com/97456790d6.css');
 
 
 
@@ -105,8 +106,8 @@ $color-border: $color-gray-50;
     #TYPOGRAPHY
 \*------------------------------------*/
 
-$font : "HelveticaNeue", "Helvetica", "Arial", sans-serif;
-$font-secondary : Georgia, Times, "Times New Roman", serif;
+$font: 'Domine', 'Helvetica', serif;
+$font-secondary: 'HelveticaNeue', 'Helvetica', 'Arial', sans-serif;
 
 $font-size-small : 0.75rem;
 $font-size-small-2 : 0.875rem;
@@ -155,9 +156,7 @@ $border-thick: 7px;
 /**
  * Border Radius
  */
-$border-radius: 6px;
-
-
+$border-radius: 4px;
 
 
 

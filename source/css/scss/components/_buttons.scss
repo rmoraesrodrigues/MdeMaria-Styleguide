@@ -5,7 +5,7 @@
 /**
  * Button
  */
-.c-btn {
+.button {
 	display: inline-block;
 	background: $color-brand-blue-dark;
 	color: $color-white;
@@ -47,41 +47,6 @@
 	background: $color-gray-50;
 	font-size: 1.4rem;
 	font-weight: normal;
-}
-
-/**
- * Text button
- */
-.c-text-btn {
-	position: relative;
-	background: none;
-    border: none;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.2rem;
-    
-    &:after {
-	    position: absolute;
-		content: "";
-		height: 20px;
-		width: 20px;
-		background: url("../../../images/icon-arrowhead.svg") no-repeat;
-	    top: 7px;
-		right: -26px;
-		transition: all 0.2s ease;
-	}
-	
-	&:hover, &:focus {
-	    color: $color-gray-73;
-	    
-	    &:after {
-		    right: -28px;
-	    }
-    }
-    
-    .c-block-media--small & {
-	    font-size: 1rem;
-	}
 }
 
 /**
